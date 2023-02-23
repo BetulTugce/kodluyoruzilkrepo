@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+h3, h4, h5, h6 {
+    text-align: center;
+    color: rgb(166, 187, 141);
+}
+
+header, h1, h2 {
+    color: rgb(60, 98, 85);
+    text-align: center;
+}
+
+p {
+    color: rgb(57, 62, 70);
+    text-align: center;
+}
+
+p a {
+    color: rgb(166, 187, 141);
+}
+
+/* NAV MENU - BAŞLANGIÇ */
+#anamenu {
+    text-align: center;
+}
+
+#anamenu ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#anamenu ul li {
+    padding-right: 30px;
+    font-size: medium;
+}
+
+#anamenu ul li a {
+    text-decoration: none;
+    color: rgb(97, 135, 110);
+}
+/* NAV MENU - SON */
+
+.article-list {
+    /* margin: auto; */
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+
+

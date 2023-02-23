@@ -1,14 +1,35 @@
+body{
+    background-color: rgb(245, 229, 208);;
+}
+
 section{
     margin: 10px;
+}
+
+span{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.recipe-infos{
+    margin-bottom: 30px;
+}
+
+.recipe-infos strong{
+    color: rgb(143, 47, 3);
+}
+
+h4{
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(143, 47, 3);
+    padding: 10px;
+    display: inline;
 }
 
 #recipe-img{
     float: left;
     padding-right: 30px;
-}
-
-#recipe-content{
-    /* float: right; */
 }
 
 #p-end{

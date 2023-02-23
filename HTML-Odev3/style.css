@@ -1,0 +1,18 @@
+section{
+    margin: 10px;
+}
+
+#recipe-img{
+    float: left;
+    padding-right: 30px;
+}
+
+#recipe-content{
+    /* float: right; */
+}
+
+#p-end{
+    float: right;
+    font-weight: lighter;
+    font-size: 30px;
+}

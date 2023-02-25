@@ -1,0 +1,20 @@
+/* Logo */
+.logo {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+/* Arama Alanı */
+.search-side {
+    text-align: center;
+    display: block;
+    background-color: #EEEEEE;
+}
+.btn {
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}

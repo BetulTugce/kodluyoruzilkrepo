@@ -1,19 +1,20 @@
-/* .nav-menu {
-  position: absolute;
-
-  right: 0px;
-} */
-
+/* Header */
 .header {
     list-style-type: none;
     margin: 10px;
     overflow: hidden;
-    margin-right: 16px;
-    font-family: arial,sans-serif;
-    font-size: 13px;
-
-    float: right;
-    padding-left: 32px;
+    margin-right: 1px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    justify-content: flex-end;
+    height: 60px;
+    box-sizing: border-box;
+    
+    /* float: right;
+    padding-left: 32px; */
   }
 
   .headerli {
@@ -36,18 +37,17 @@
     border-radius: 50%;
     margin-right: 1px;
   }
+
+  /* Search Alanı */
+
+  .panel {
+    /* margin : 100px; */
+  }
   
   .container {
     text-align: center;
-    margin: 100px;
-  }
-
-  .google-logo {
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center bottom;
-    width: auto;
+    margin-bottom: 2%;
+    
   }
   
   .search-area {
@@ -102,6 +102,21 @@
     line-height: 24px;
     position: relative;
   }
+
+  .voice {
+    /* float: right; */
+    z-index: 0;
+    position: relative;
+  }
+
+  .voice-logo {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    position: absolute;
+    right: 1px;
+    margin-top: 5px;
+  }
   
   .input-enter {
     display: flex;
@@ -153,7 +168,19 @@
     display: flex;
     -webkit-tap-highlight-color: transparent;
     margin-top: 10px;
+    width: 480px;
   }
+
+  /* Google Logo */
+  .google-logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+  }
+
+  /* Search alanı altındaki butonlar */
 
   .buttons {
     height: 70px;
@@ -170,9 +197,9 @@
     cursor: pointer;
     user-select: none; */
     background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
+    border: 1px solid #f2f2f2;
     border-radius: 4px;
-    color: #3c4043;
+    color: #5f6368;
     font-family: arial,sans-serif;
     font-size: 14px;
     margin: 11px 4px;
@@ -193,9 +220,9 @@
     cursor: pointer;
     user-select: none; */
     background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
+    border: 1px solid #f2f2f2;
     border-radius: 4px;
-    color: #3c4043;
+    color: #5f6368;
     font-family: arial,sans-serif;
     font-size: 14px;
     margin: 11px 4px;
@@ -214,6 +241,8 @@
     border: 1px solid #dadce0;
     color: #202124;
   }
+
+  /* Footer */
   
   .footer {
     margin: 0;
@@ -226,6 +255,8 @@
     width: 100%;
     margin-left: -8px;
     line-height: 10px;
+    list-style-type: none;
+    background-color: #f2f2f2;
   }
   
   .footerli {
